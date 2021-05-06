@@ -15,6 +15,9 @@ _PowerShell Script for Windows can be found [here](https://github.com/fire1ce/cl
 *   [api-token](https://dash.cloudflare.com/profile/api-tokens) with ZONE-DNS-EDIT Permissions
 *   DNS Record must be pre created (api-token should only edit dns records)
 
+## Optional packages
+*   mailutils (configure root user email for system mail notifications)
+
 ## Installation
 
 ```bash
