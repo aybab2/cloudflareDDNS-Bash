@@ -11,7 +11,7 @@ dns_record="ddns.example.com"   ##### DNS A record which will be updated
 zoneid="ChangeMe"               ##### Cloudflare's Zone ID
 proxied="false"                 ##### Use Cloudflare proxy on dns record true/false
 ttl=120                         ##### 120-7200 in seconds or 1 for Auto
-cloudflare_api_token="ChangeMe" ##### loudflare API Token keep it private!!!!
+cloudflare_api_token="ChangeMe" ##### Cloudflare API Token keep it private!!!!
 
 ##### .updateDNS.log file of the last run for debug
 parent_path="$(dirname "${BASH_SOURCE[0]}")"
